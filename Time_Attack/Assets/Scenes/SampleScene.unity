@@ -1961,7 +1961,7 @@ Rigidbody:
   serializedVersion: 4
   m_Mass: 970
   m_Drag: 0
-  m_AngularDrag: 10
+  m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
   m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -2365,13 +2365,13 @@ MonoBehaviour:
       inWeight: 0.10968816
       outWeight: 0.34974346
     - serializedVersion: 3
-      time: 59.72482
-      value: 41.512688
-      inSlope: -0.8958887
-      outSlope: -0.8958887
+      time: 65.512825
+      value: 26.806208
+      inSlope: -2.2145061
+      outSlope: -2.2145061
       tangentMode: 0
       weightedMode: 0
-      inWeight: 0.27982315
+      inWeight: 0.15421675
       outWeight: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
