@@ -427,7 +427,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 68208458}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.15967758, y: -0, z: -0, w: 0.9871692}
+  m_LocalRotation: {x: 0.15967758, y: -0, z: -0, w: 0.98716927}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -463,7 +463,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: 0.70950055, y: -0.23500001, z: 1.2253828}
-  m_LocalScale: {x: 100, y: 100, z: 100}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2346542002626132542}
@@ -477,12 +477,12 @@ WheelCollider:
   m_GameObject: {fileID: 244776778}
   serializedVersion: 2
   m_Center: {x: 0, y: 0, z: 0}
-  m_Radius: 0.0032
+  m_Radius: 0.33
   m_SuspensionSpring:
     spring: 35000
     damper: 4500
     targetPosition: 0.5
-  m_SuspensionDistance: 0.0065
+  m_SuspensionDistance: 0.66
   m_ForceAppPointDistance: 0
   m_Mass: 20
   m_WheelDampingRate: 0.25
@@ -497,7 +497,7 @@ WheelCollider:
     m_ExtremumValue: 1
     m_AsymptoteSlip: 0.5
     m_AsymptoteValue: 0.75
-    m_Stiffness: 2
+    m_Stiffness: 3
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -543,7 +543,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0.7094996, y: -0.235, z: 1.2253895}
-  m_LocalScale: {x: 100, y: 100, z: 100}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2346542002626132542}
@@ -557,12 +557,12 @@ WheelCollider:
   m_GameObject: {fileID: 477510323}
   serializedVersion: 2
   m_Center: {x: 0, y: 0, z: 0}
-  m_Radius: 0.0032
+  m_Radius: 0.33
   m_SuspensionSpring:
     spring: 35000
     damper: 4500
     targetPosition: 0.5
-  m_SuspensionDistance: 0.0065
+  m_SuspensionDistance: 0.66
   m_ForceAppPointDistance: 0
   m_Mass: 20
   m_WheelDampingRate: 0.25
@@ -577,7 +577,7 @@ WheelCollider:
     m_ExtremumValue: 1
     m_AsymptoteSlip: 0.5
     m_AsymptoteValue: 0.75
-    m_Stiffness: 2
+    m_Stiffness: 3
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -1256,7 +1256,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: 0.70950055, y: -0.23500001, z: -1.1637049}
-  m_LocalScale: {x: 100, y: 100, z: 100}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2346542002626132542}
@@ -1270,12 +1270,12 @@ WheelCollider:
   m_GameObject: {fileID: 1408909852}
   serializedVersion: 2
   m_Center: {x: 0, y: 0, z: 0}
-  m_Radius: 0.0032
+  m_Radius: 0.33
   m_SuspensionSpring:
     spring: 35000
     damper: 4500
     targetPosition: 0.5
-  m_SuspensionDistance: 0.0065
+  m_SuspensionDistance: 0.66
   m_ForceAppPointDistance: 0
   m_Mass: 20
   m_WheelDampingRate: 0.25
@@ -1284,12 +1284,12 @@ WheelCollider:
     m_ExtremumValue: 1
     m_AsymptoteSlip: 0.8
     m_AsymptoteValue: 0.5
-    m_Stiffness: 1
+    m_Stiffness: 2
   m_SidewaysFriction:
-    m_ExtremumSlip: 0.2
-    m_ExtremumValue: 1
-    m_AsymptoteSlip: 0.5
-    m_AsymptoteValue: 0.75
+    m_ExtremumSlip: 0.1
+    m_ExtremumValue: 0.25
+    m_AsymptoteSlip: 0.1
+    m_AsymptoteValue: 0.25
     m_Stiffness: 1
   m_IncludeLayers:
     serializedVersion: 2
@@ -1476,7 +1476,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0.7094996, y: -0.23500001, z: -1.1636953}
-  m_LocalScale: {x: 100, y: 100, z: 100}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2346542002626132542}
@@ -1490,12 +1490,12 @@ WheelCollider:
   m_GameObject: {fileID: 2116010574}
   serializedVersion: 2
   m_Center: {x: 0, y: 0, z: 0}
-  m_Radius: 0.0032
+  m_Radius: 0.33
   m_SuspensionSpring:
     spring: 35000
     damper: 4500
     targetPosition: 0.5
-  m_SuspensionDistance: 0.0065
+  m_SuspensionDistance: 0.66
   m_ForceAppPointDistance: 0
   m_Mass: 20
   m_WheelDampingRate: 0.25
@@ -1504,12 +1504,12 @@ WheelCollider:
     m_ExtremumValue: 1
     m_AsymptoteSlip: 0.8
     m_AsymptoteValue: 0.5
-    m_Stiffness: 1
+    m_Stiffness: 2
   m_SidewaysFriction:
-    m_ExtremumSlip: 0.2
-    m_ExtremumValue: 1
-    m_AsymptoteSlip: 0.5
-    m_AsymptoteValue: 0.75
+    m_ExtremumSlip: 0.1
+    m_ExtremumValue: 0.25
+    m_AsymptoteSlip: 0.1
+    m_AsymptoteValue: 0.25
     m_Stiffness: 1
   m_IncludeLayers:
     serializedVersion: 2
@@ -2340,39 +2340,47 @@ MonoBehaviour:
     frWheelMesh: {fileID: 1183336215438520596}
     rlWheelMesh: {fileID: 8966251882863331882}
     rrWheelMesh: {fileID: 201208060324370919}
+  wheelParticles:
+    flWheelParticles: {fileID: 0}
+    frWheelParticles: {fileID: 0}
+    rlWheelParticles: {fileID: 0}
+    rrWheelParticles: {fileID: 0}
+  smokePrefab: {fileID: 9061535921876843458, guid: abd62c42253e4ca4cb4585af1b1b4996, type: 3}
   accelerateInput: 0
+  brakeInput: 0
   steeringInput: 0
-  motorPower: 500
+  motorPower: 5000
+  brakePower: 50000
   steeringCurve:
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 3
-      time: 0
-      value: 61.458374
-      inSlope: 0.055689264
-      outSlope: 0.055689264
+      time: -0.000000059604645
+      value: 62.25296
+      inSlope: 0.0014631908
+      outSlope: 0.0014631908
       tangentMode: 0
       weightedMode: 0
       inWeight: 0
-      outWeight: 0.22028424
+      outWeight: 0.52242345
     - serializedVersion: 3
-      time: 54.360992
-      value: 51.93363
-      inSlope: -0.585943
-      outSlope: -0.585943
+      time: 55.99881
+      value: 59.844933
+      inSlope: -0.13478693
+      outSlope: -0.13478693
       tangentMode: 0
       weightedMode: 0
-      inWeight: 0.10968816
+      inWeight: 0.19066896
       outWeight: 0.34974346
     - serializedVersion: 3
-      time: 65.512825
-      value: 36.086845
-      inSlope: -2.2145061
-      outSlope: -2.2145061
+      time: 72.31108
+      value: 56.897133
+      inSlope: -0.2199535
+      outSlope: -0.2199535
       tangentMode: 0
       weightedMode: 0
-      inWeight: 0.15421675
-      outWeight: 0
+      inWeight: 0.52811354
+      outWeight: 0.33333334
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
